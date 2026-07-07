@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hettie Maylam — Senior Creative Producer & Director</title>
+    <!-- Tailwind CSS for high-fidelity agency styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Space Grotesk for that sharp, modern studio edge -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <style>
+        body { font-family: 'Space Grotesk', sans-serif; }
+        .studio-gradient { background: linear-gradient(135deg, #22d3ee 0%, #a855f7 100%); }
+        .img-scale { transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1); }
+        .video-card:hover .img-scale { transform: scale(1.03); }
+        .video-card:hover .play-btn { transform: scale(1.1); opacity: 1; }
+    </style>
+</head>
+<body class="bg-zinc-950 text-zinc-100 antialiased selection:bg-cyan-400 selection:text-black">
+
+    <!-- LINEAR GLOW HEADER BACKGROUND -->
+    <div class="absolute top-0 left-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-[120px] pointer-events-none"></div>
+    <div class="absolute top-20 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-[120px] pointer-events-none"></div>
+
+    <!-- HERO / IDENTITY HEADER -->
+    <header class="relative max-w-7xl mx-auto px-6 pt-24 pb-16 md:pt-32 md:pb-24 border-b border-zinc-900">
+        <div class="max-w-4xl">
+            <div class="inline-flex items-center gap-2 px-3 py-1 bg-zinc-900 border border-zinc-800 rounded-full mb-6">
+                <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+                <span class="text-xs tracking-wider text-zinc-400 font-medium uppercase">Open for Commissions &amp; Directing Key Deployments</span>
+            </div>
+            
+            <h1 class="text-6xl md:text-8xl font-bold tracking-tighter text-white mb-4">
+                HETTIE MAYLAM
+            </h1>
+            
+            <p class="text-xl md:text-3xl font-light tracking-tight text-zinc-400 mb-8 max-w-3xl leading-snug">
+                Senior Creative Producer &amp; Director crafting premium <span class="text-transparent bg-clip-text studio-gradient font-semibold">digital originals, cinematic branded content</span>, and high-impact multi-platform social campaigns.
+            </p>
+
+            <!-- Stripped Back Premium CTAs -->
+            <div class="flex flex-wrap gap-4 items-center">
+                <a href="mailto:hettiemaylam@hotmail.co.uk" class="px-6 py-3.5 bg-white text-black hover:bg-cyan-400 hover:text-black font-semibold rounded-sm transition duration-300 tracking-tight flex items-center gap-2">
+                    Let's Collaborate <i class="fa-solid fa-arrow-right text-xs"></i>
+                </a>
+                <a href="#work" class="px-6 py-3.5 bg-zinc-900 hover:bg-zinc-800 text-zinc-300 rounded-sm transition duration-300 tracking-tight border border-zinc-800">
+                    Selected Works
+                </a>
+                <a href="#profile" class="px-6 py-3.5 text-zinc-400 hover:text-zinc-200 transition text-sm tracking-tight">
+                    Read Background
+                </a>
+            </div>
+        </div>
+
+        <!-- Meta Studio Info -->
+        <div class="mt-16 pt-8 border-t border-zinc-900/50 grid grid-cols-2 md:grid-cols-4 gap-6 text-xs tracking-widest text-zinc-500 uppercase">
+            <div><span class="text-zinc-400 block font-semibold mb-1">Base</span> London, UK</div>
+            <div><span class="text-zinc-400 block font-semibold mb-1">Contact</span> +44 (0)7896 568924</div>
+            <div><span class="text-zinc-400 block font-semibold mb-1">Languages</span> EN / ES (Fluent) / FR (Fluent)</div>
+            <div><span class="text-zinc-400 block font-semibold mb-1">Expertise</span> Concept to Final Delivery</div>
+        </div>
+    </header>
+
+    <!-- MAIN PORTFOLIO GRID -->
+    <main id="work" class="max-w-7xl mx-auto px-6 py-20 space-y-32">
+
+        <!-- WORK CATEGORY 1: PREMIUM DIGITAL ORIGINALS -->
+        <section class="space-y-10">
+            <div class="flex flex-col md:flex-row md:items-end justify-between border-b border-zinc-900 pb-4 gap-4">
+                <div>
+                    <span class="text-xs font-mono tracking-widest text-cyan-400 uppercase">Series // Editorial</span>
+                    <h2 class="text-3xl font-bold tracking-tight text-white mt-1">Digital Originals</h2>
+                </div>
+                <p class="text-sm text-zinc-500 max-w-md">Premium original features spanning global tech, economics, and commercial design for high-tier networks.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Project Card 1 -->
+                <a href="https://www.youtube.com/watch?v=Dn6KbUuJilM" target="_blank" class="video-card group block space-y-4">
+                    <div class="relative aspect-video bg-zinc-900 overflow-hidden border border-zinc-900">
+                        <img src="https://img.youtube.com/vi/Dn6KbUuJilM/maxresdefault.jpg" alt="Bubble tea feature" class="w-full h-full object-cover grayscale group-hover:grayscale-0 img-scale opacity-80 group-hover:opacity-100">
+                        <div class="absolute bottom-4 left-4 bg-black/80 px-2 py-1 text-[10px] uppercase font-mono tracking-wider text-zinc-400">CNBC Make It</div>
+                        <div class="play-btn absolute inset-0 flex items-center justify-center opacity-0 transition duration-300">
+                            <div class="w-14 h-14 bg-white text-black rounded-full flex items-center justify-center pl-1 shadow-2xl"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-start gap-4">
+                        <h3 class="text-lg font-medium text-zinc-200 group-hover:text-cyan-400 transition leading-snug">He quit banking to sell bubble tea: now it makes over $500 million a year</h3>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-zinc-600 text-xs mt-1"></i>
+                    </div>
+                </a>
+
+                <!-- Project Card 2 -->
+                <a href="https://www.youtube.com/watch?v=5qbMjvgDep0" target="_blank" class="video-card group block space-y-4">
+                    <div class="relative aspect-video bg-zinc-900 overflow-hidden border border-zinc-900">
+                        <img src="https://img.youtube.com/vi/5qbMjvgDep0/maxresdefault.jpg" alt="Stripe Story" class="w-full h-full object-cover grayscale group-hover:grayscale-0 img-scale opacity-80 group-hover:opacity-100">
+                        <div class="absolute bottom-4 left-4 bg-black/80 px-2 py-1 text-[10px] uppercase font-mono tracking-wider text-zinc-400">CNBC Built for Billions</div>
+                        <div class="play-btn absolute inset-0 flex items-center justify-center opacity-0 transition duration-300">
+                            <div class="w-14 h-14 bg-white text-black rounded-full flex items-center justify-center pl-1 shadow-2xl"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-start gap-4">
+                        <h3 class="text-lg font-medium text-zinc-200 group-hover:text-cyan-400 transition leading-snug">He turned down $1.2 billion from Stripe, now his company is worth $8 billion</h3>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-zinc-600 text-xs mt-1"></i>
+                    </div>
+                </a>
+
+                <!-- Project Card 3 -->
+                <a href="https://www.youtube.com/watch?v=TDT4NarMoOl" target="_blank" class="video-card group block space-y-4">
+                    <div class="relative aspect-video bg-zinc-900 overflow-hidden border border-zinc-900">
+                        <img src="https://img.youtube.com/vi/TDT4NarMoOl/maxresdefault.jpg" alt="Germany Economy" class="w-full h-full object-cover grayscale group-hover:grayscale-0 img-scale opacity-80 group-hover:opacity-100">
+                        <div class="absolute bottom-4 left-4 bg-black/80 px-2 py-1 text-[10px] uppercase font-mono tracking-wider text-zinc-400">CNBC Explains</div>
+                        <div class="play-btn absolute inset-0 flex items-center justify-center opacity-0 transition duration-300">
+                            <div class="w-14 h-14 bg-white text-black rounded-full flex items-center justify-center pl-1 shadow-2xl"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-start gap-4">
+                        <h3 class="text-lg font-medium text-zinc-200 group-hover:text-cyan-400 transition leading-snug">Why Germany's rebooting its economy</h3>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-zinc-600 text-xs mt-1"></i>
+                    </div>
+                </a>
+
+                <!-- Project Card 4 -->
+                <a href="https://www.youtube.com/watch?v=v9Qu1Zp1gdc" target="_blank" class="video-card group block space-y-4">
+                    <div class="relative aspect-video bg-zinc-900 overflow-hidden border border-zinc-900">
+                        <img src="https://img.youtube.com/vi/v9Qu1Zp1gdc/maxresdefault.jpg" alt="Alibaba architecture" class="w-full h-full object-cover grayscale group-hover:grayscale-0 img-scale opacity-80 group-hover:opacity-100">
+                        <div class="absolute bottom-4 left-4 bg-black/80 px-2 py-1 text-[10px] uppercase font-mono tracking-wider text-zinc-400">CNBC Digital</div>
+                        <div class="play-btn absolute inset-0 flex items-center justify-center opacity-0 transition duration-300">
+                            <div class="w-14 h-14 bg-white text-black rounded-full flex items-center justify-center pl-1 shadow-2xl"><i class="fa-solid fa-play"></i></div>
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-start gap-4">
+                        <h3 class="text-lg font-medium text-zinc-200 group-hover:text-cyan-400 transition leading-snug">How Alibaba makes billions</h3>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-zinc-600 text-xs mt-1"></i>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Extended Text Links for the Rest of the Slates -->
+            <div class="pt-6 grid grid-cols-1 md:grid-cols-2 gap-4 text-sm border-t border-zinc-900">
+                <a href="https://www.youtube.com/watch?v=jHL95qTz620" target="_blank" class="flex justify-between items-center p-3 bg-zinc-900/40 hover:bg-zinc-900 border border-zinc-900 hover:border-zinc-800 transition rounded-sm group">
+                    <span class="text-zinc-400 group-hover:text-white transition">The rise, fall and return of Jack Ma</span>
+                    <i class="fa-solid fa-play text-xs text-zinc-600 group-hover:text-cyan-400 transition"></i>
+                </a>
+                <a href="https://www.youtube.com/watch?v=gQemV8nChDo" target="_blank" class="flex justify-between items-center p-3 bg-zinc-900/40 hover:bg-zinc-900 border border-zinc-900 hover:border-zinc-800 transition rounded-sm group">
+                    <span class="text-zinc-400 group-hover:text-white transition">How Alibaba quietly became a leader in AI</span>
+                    <i class="fa-solid fa-play text-xs text-zinc-600 group-hover:text-cyan-400 transition"></i>
+                </a>
+                <a href="https://youtu.be/Zys3dqBPKNU" target="_blank" class="flex justify-between items-center p-3 bg-zinc-900/40 hover:bg-zinc-900 border border-zinc-900 hover:border-zinc-800 transition rounded-sm group">
+                    <span class="text-zinc-400 group-hover:text-white transition">Rock star Yungblud is building a new kind of business</span>
+                    <i class="fa-solid fa-play text-xs text-zinc-600 group-hover:text-cyan-400 transition"></i>
+                </a>
+                <a href="https://youtu.be/oODNBxrxriq" target="_blank" class="flex justify-between items-center p-3 bg-zinc-900/40 hover:bg-zinc-900 border border-zinc-900 hover:border-zinc-800 transition rounded-sm group">
+                    <span class="text-zinc-400 group-hover:text-white transition">Why Nintendo stopped chasing power and changed the game</span>
+                    <i class="fa-solid fa-play text-xs text-zinc-600 group-hover:text-cyan-400 transition"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- WORK CATEGORY 2: PREMIUM BRANDED FILMS & REELS -->
+        <section class="space-y-10">
+            <div class="flex flex-col md:flex-row md:items-end justify-between border-b border-zinc-900 pb-4 gap-4">
+                <div>
+                    <span class="text-xs font-mono tracking-widest text-purple-400 uppercase">Branded Content // Commercial</span>
+                    <h2 class="text-3xl font-bold tracking-tight text-white mt-1">Corporate &amp; Brand Films</h2>
+                </div>
+                <p class="text-sm text-zinc-500 max-w-md">Premium cinematic storytelling for global agencies, financial networks, and elite enterprise structures.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- HSBC Film 1 -->
+                <a href="https://www.youtube.com/watch?v=6HD1sZJs9QM" target="_blank" class="video-card group block space-y-3">
+                    <div class="relative aspect-video bg-zinc-900 overflow-hidden border border-zinc-900">
+                        <img src="https://img.youtube.com/vi/6HD1sZJs9QM/mqdefault.jpg" alt="HSBC Campaign" class="w-full h-full object-cover grayscale group-hover:grayscale-0 img-scale opacity-70">
+                        <span class="absolute top-3 left-3 text-[10px] bg-zinc-950 px-2 py-0.5 tracking-wider text-zinc-400 uppercase font-mono">HSBC</span>
+                    </div>
+                    <h4 class="text-base font-medium text-zinc-300 group-hover:text-purple-400 transition leading-snug">Why I do what I do: International</h4>
+                </a>
+
+                <!-- HSBC Film 2 -->
+                <a href="https://www.youtube.com/watch?v=frWb0oid0c4" target="_blank" class="video-card group block space-y-3">
+                    <div class="relative aspect-video bg-zinc-900 overflow-hidden border border-zinc-900">
+                        <img src="https://img.youtube.com/vi/frWb0oid0c4/mqdefault.jpg" alt="HSBC Eric Fisch" class="w-full h-full object-cover grayscale group-hover:grayscale-0 img-scale opacity-70">
+                        <span class="absolute top-3 left-3 text-[10px] bg-zinc-950 px-2 py-0.5 tracking-wider text-zinc-400 uppercase font-mono">HSBC</span>
+                    </div>
+                    <h4 class="text-base font-medium text-zinc-300 group-hover:text-purple-400 transition leading-snug">Why I do what I do: Eric Fisch</h4>
+                </a>
+
+                <!-- Custom Elegant Card for Vimeo Layout (PwC) -->
+                <a href="https://vimeo.com/892450953/84e3a42235" target="_blank" class="video-card group block space-y-3">
+                    <div class="relative aspect-video bg-gradient-to-br from-zinc-900 to-zinc-950 overflow-hidden border border-zinc-800 flex flex-col justify-center items-center p-4 text-center">
+                        <i class="fa-brands fa-vimeo-v text-purple-400 text-2xl mb-1 group-hover:scale-110 transition duration-300"></i>
+                        <span class="text-[10px] uppercase font-mono text-zinc-500 tracking-widest">Stream on Vimeo</span>
+                        <span class="absolute top-3 left-3 text-[10px] bg-zinc-950 px-2 py-0.5 tracking-wider text-zinc-400 uppercase font-mono">PwC</span>
+                    </div>
+                    <h4 class="text-base font-medium text-zinc-300 group-hover:text-purple-400 transition leading-snug">PwC: Higher Education Disrupted</h4>
+                </a>
+
+                <!-- Nestle -->
+                <a href="https://www.youtube.com/watch?v=VO4pTWfboI" target="_blank" class="video-card group block space-y-3">
+                    <div class="relative aspect-video bg-zinc-900 overflow-hidden border border-zinc-900">
+                        <img src="https://img.youtube.com/vi/VO4pTWfboI/mqdefault.jpg" alt="Nestle Documentaries" class="w-full h-full object-cover grayscale group-hover:grayscale-0 img-scale opacity-70">
+                        <span class="absolute top-3 left-3 text-[10px] bg-zinc-950 px-2 py-0.5 tracking-wider text-zinc-400 uppercase font-mono">Nestlé</span>
+                    </div>
+                    <h4 class="text-base font-medium text-zinc-300 group-hover:text-purple-400 transition leading-snug line-clamp-1">Restoring water quality and livelihoods: Khanom Chin Canal, Thailand</h4>
+                </a>
+
+                <!-- HKEX -->
+                <a href="https://www.youtube.com/watch?v=F4KB2XRAnFU" target="_blank" class="video-card group block space-y-3">
+                    <div class="relative aspect-video bg-zinc-900 overflow-hidden border border-zinc-900">
+                        <img src="https://img.youtube.com/vi/F4KB2XRAnFU/mqdefault.jpg" alt="HKEX London Taxi" class="w-full h-full object-cover grayscale group-hover:grayscale-0 img-scale opacity-70">
+                        <span class="absolute top-3 left-3 text-[10px] bg-zinc-950 px-2 py-0.5 tracking-wider text-zinc-400 uppercase font-mono">HKEX</span>
+                    </div>
+                    <h4 class="text-base font-medium text-zinc-300 group-hover:text-purple-400 transition leading-snug line-clamp-1">Our roving #HongKong taxi arrives in London!</h4>
+                </a>
+            </div>
+        </section>
+
+        <!-- WORK CATEGORY 3: SHORTS & SOCIAL CONTENT (Vertical Creative Matrix) -->
+        <section class="space-y-10">
+            <div class="flex flex-col md:flex-row md:items-end justify-between border-b border-zinc-900 pb-4 gap-4">
+                <div>
+                    <span class="text-xs font-mono tracking-widest text-emerald-400 uppercase">Vertical Frameworks // Mobile Growth</span>
+                    <h2 class="text-3xl font-bold tracking-tight text-white mt-1">Shorts &amp; Social Content</h2>
+                </div>
+                <p class="text-sm text-zinc-500 max-w-md">Fast-turnaround high-retention social content optimizing audience trends and mobile engagement hooks.</p>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-4">
+                <!-- Short item -->
+                <a href="https://youtube.com/shorts/OwOJmO1pBRU" target="_blank" class="group block space-y-2">
+                    <div class="relative aspect-[9/16] bg-zinc-900 border border-zinc-900 overflow-hidden rounded-sm">
+                        <img src="https://img.youtube.com/vi/OwOJmO1pBRU/mqdefault.jpg" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition duration-300">
+                    </div>
+                    <p class="text-xs font-medium text-zinc-400 group-hover:text-white transition font-mono truncate">The Score</p>
+                </a>
+                
+                <!-- Short item -->
+                <a href="https://youtube.com/shorts/F1rYsn5oGg" target="_blank" class="group block space-y-2">
+                    <div class="relative aspect-[9/16] bg-zinc-900 border border-zinc-900 overflow-hidden rounded-sm">
+                        <img src="https://img.youtube.com/vi/F1rYsn5oGg/mqdefault.jpg" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition duration-300">
+                    </div>
+                    <p class="text-xs font-medium text-zinc-400 group-hover:text-white transition font-mono truncate">Built for Billions I</p>
+                </a>
+
+                <!-- Short item -->
+                <a href="https://youtube.com/shorts/l_ce8LdPzjM" target="_blank" class="group block space-y-2">
+                    <div class="relative aspect-[9/16] bg-zinc-900 border border-zinc-900 overflow-hidden rounded-sm">
+                        <img src="https://img.youtube.com/vi/l_ce8LdPzjM/mqdefault.jpg" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition duration-300">
+                    </div>
+                    <p class="text-xs font-medium text-zinc-400 group-hover:text-white transition font-mono truncate">Built for Billions II</p>
+                </a>
+
+                <!-- Short item -->
+                <a href="https://youtube.com/shorts/trxxHINq3A0" target="_blank" class="group block space-y-2">
+                    <div class="relative aspect-[9/16] bg-zinc-900 border border-zinc-900 overflow-hidden rounded-sm">
+                        <img src="https://img.youtube.com/vi/trxxHINq3A0/mqdefault.jpg" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition duration-300">
+                    </div>
+                    <p class="text-xs font-medium text-zinc-400 group-hover:text-white transition font-mono truncate">Founder Effect</p>
+                </a>
+
+                <!-- Short item -->
+                <a href="https://youtube.com/shorts/xuxxMTD1770" target="_blank" class="group block space-y-2">
+                    <div class="relative aspect-[9/16] bg-zinc-900 border border-zinc-900 overflow-hidden rounded-sm">
+                        <img src="https://img.youtube.com/vi/xuxxMTD1770/mqdefault.jpg" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition duration-300">
+                    </div>
+                    <p class="text-xs font-medium text-zinc-400 group-hover:text-white transition font-mono truncate">Exec Decisions</p>
+                </a>
+
+                <!-- Short item -->
+                <a href="https://youtube.com/shorts/q1XwlL3Xsw" target="_blank" class="group block space-y-2">
+                    <div class="relative aspect-[9/16] bg-zinc-900 border border-zinc-900 overflow-hidden rounded-sm">
+                        <img src="https://img.youtube.com/vi/q1XwlL3Xsw/mqdefault.jpg" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition duration-300">
+                    </div>
+                    <p class="text-xs font-medium text-zinc-400 group-hover:text-white transition font-mono truncate">Converge Short</p>
+                </a>
+
+                <!-- Short item -->
+                <a href="https://youtube.com/shorts/YZAIz3IQ7L0" target="_blank" class="group block space-y-2">
+                    <div class="relative aspect-[9/16] bg-zinc-900 border border-zinc-900 overflow-hidden rounded-sm">
+                        <img src="https://img.youtube.com/vi/YZAIz3IQ7L0/mqdefault.jpg" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition duration-300">
+                    </div>
+                    <p class="text-xs font-medium text-zinc-400 group-hover:text-white transition font-mono truncate">Presenter Led I</p>
+                </a>
+
+                <!-- Short item -->
+                <a href="https://youtube.com/shorts/NWoruL1HGWU" target="_blank" class="group block space-y-2">
+                    <div class="relative aspect-[9/16] bg-zinc-900 border border-zinc-900 overflow-hidden rounded-sm">
+                        <img src="https://img.youtube.com/vi/NWoruL1HGWU/mqdefault.jpg" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition duration-300">
+                    </div>
+                    <p class="text-xs font-medium text-zinc-400 group-hover:text-white transition font-mono truncate">Presenter Led II</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- HIGH CONTRAST PROFILE & TIMELINE -->
+        <section id="profile" class="pt-16 border-t border-zinc-900 grid grid-cols-1 lg:grid-cols-3 gap-16">
+            
+            <!-- Left Info Stack -->
+            <div class="space-y-10">
+                <div>
+                    <h3 class="text-xs font-mono tracking-widest text-zinc-500 uppercase mb-3">// Executive Summary</h3>
+                    <p class="text-zinc-400 font-light leading-relaxed text-base">
+                        Senior Producer and Director with over 10 years of experience developing ideas and delivering original digital, broadcast and branded content across agency, editorial and production environments. A hands-on visual storyteller who spans the entire production process.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-xs font-mono tracking-widest text-zinc-500 uppercase mb-3">// Core DNA</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-xs bg-zinc-900 border border-zinc-800 text-zinc-300 px-3 py-1">Concept Architecture</span>
+                        <span class="text-xs bg-zinc-900 border border-zinc-800 text-zinc-300 px-3 py-1">Treatment Design</span>
+                        <span class="text-xs bg-zinc-900 border border-zinc-800 text-zinc-300 px-3 py-1">On-Set Crew Leadership</span>
+                        <span class="text-xs bg-zinc-900 border border-zinc-800 text-zinc-300 px-3 py-1">Hostile Environment Deployment</span>
+                        <span class="text-xs bg-zinc-900 border border-zinc-800 text-zinc-300 px-3 py-1">Edit Producing</span>
+                        <span class="text-xs bg-zinc-900 border border-zinc-800 text-zinc-300 px-3 py-1">High-Risk Compliance</span>
+                        <span class="text-xs bg-zinc-900 border border-zinc-800 text-zinc-300 px-3 py-1">Budget Optimization (5% Cash Sparring)</span>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-xs font-mono tracking-widest text-zinc-500 uppercase mb-2">// Network Footprint</h3>
+                    <p class="text-xs text-zinc-500 leading-relaxed font-mono">
+                        Google DeepMind · CNBC · HSBC · PwC · Nestlé · ITN · Brunswick Creative · Casual Films · MAG · The Guardian · HuffPost
+                    </p>
+                </div>
+            </div>
+
+            <!-- Career Ledger Timeline (Agency Styled) -->
+            <div class="lg:col-span-2 space-y-12">
+                <h3 class="text-xs font-mono tracking-widest text-zinc-500 uppercase">// Professional Ledger</h3>
+                
+                <div class="space-y-10 border-l border-zinc-800 pl-8 ml-2">
+                    
+                    <!-- Job Item 1 -->
+                    <div class="relative space-y-2">
+                        <div class="absolute -left-[36.5px] top-1.5 w-4 h-4 bg-cyan-400 border-4 border-zinc-950 rounded-full"></div>
+                        <div class="flex flex-wrap justify-between items-baseline gap-2">
+                            <h4 class="text-lg font-bold text-white tracking-tight">Creative Senior Producer / Director</h4>
+                            <span class="text-xs font-mono text-zinc-500">JAN 2026 — PRESENT</span>
+                        </div>
+                        <p class="text-xs font-mono text-cyan-400 uppercase tracking-wider">Freelance</p>
+                        <p class="text-sm text-zinc-400 font-light leading-relaxed">
+                            Executing high-end senior creative roles navigating fast pre-production layouts, complex treatment compositions, on-set logistics, and final narrative mastery edits for tier-one global clients like <strong class="text-zinc-200">Google DeepMind</strong>.
+                        </p>
+                    </div>
+
+                    <!-- Job Item 2 -->
+                    <div class="relative space-y-2">
+                        <div class="absolute -left-[36.5px] top-1.5 w-4 h-4 bg-zinc-800 border-4 border-zinc-950 rounded-full"></div>
+                        <div class="flex flex-wrap justify-between items-baseline gap-2">
+                            <h4 class="text-lg font-bold text-white tracking-tight">Supervising Producer <span class="text-xs font-normal text-zinc-500">(Paternity Cover)</span></h4>
+                            <span class="text-xs font-mono text-zinc-500">JAN 2025 — DEC 2025</span>
+                        </div>
+                        <p class="text-xs font-mono text-purple-400 uppercase tracking-wider">CNBC — Digital Originals</p>
+                        <p class="text-sm text-zinc-400 font-light leading-relaxed">
+                            Spearheaded creative development and architecture models for a premium slate of original network series during full brand updates. Mentored multi-disciplinary groups across digital pipelines and field-produced high-stakes visual asset models.
+                        </p>
+                    </div>
+
+                    <!-- Job Item 3 -->
+                    <div class="relative space-y-2">
+                        <div class="absolute -left-[36.5px] top-1.5 w-4 h-4 bg-zinc-800 border-4 border-zinc-950 rounded-full"></div>
+                        <div class="flex flex-wrap justify-between items-baseline gap-2">
+                            <h4 class="text-lg font-bold text-white tracking-tight">Programme Development Manager</h4>
+                            <span class="text-xs font-mono text-zinc-500">JULY 2024 — DEC 2024</span>
+                        </div>
+                        <p class="text-xs font-mono text-purple-400 uppercase tracking-wider">ITN (Freelance)</p>
+                        <p class="text-sm text-zinc-400 font-light leading-relaxed">
+                            Created, packaged, and pitched high-value corporate treatments converting complex concept blueprints into active industry network commissions.
+                        </p>
+                    </div>
+
+                    <!-- Job Item 4 (THE BIG MATCH FOR THE TARGET AUDIENCE) -->
+                    <div class="relative space-y-2 p-4 bg-zinc-900/30 border border-zinc-900 rounded-sm">
+                        <div class="absolute -left-[24.5px] top-5 w-4 h-4 bg-purple-400 border-4 border-zinc-950 rounded-full"></div>
+                        <div class="flex flex-wrap justify-between items-baseline gap-2">
+                            <h4 class="text-lg font-bold text-white tracking-tight">Creative Producer</h4>
+                            <span class="text-xs font-mono text-zinc-400">JUN 2022 — JAN 2024</span>
+                        </div>
+                        <p class="text-xs font-mono text-cyan-400 uppercase tracking-wider">Casual Films</p>
+                        <p class="text-sm text-zinc-400 font-light leading-relaxed">
+                            Designed and directed premium high-yield corporate and consumer campaigns, managing total project accountability over complex £300,000+ commercial slates while keeping cash workflows within lean, optimized 5% thresholds via creative asset reuse.
+                        </p>
+                    </div>
+
+                    <!-- Job Item 5 -->
+                    <div class="relative space-y-2">
+                        <div class="absolute -left-[36.5px] top-1.5 w-4 h-4 bg-zinc-800 border-4 border-zinc-950 rounded-full"></div>
+                        <div class="flex flex-wrap justify-between items-baseline gap-2">
+                            <h4 class="text-lg font-bold text-white tracking-tight">Multimedia Content Producer</h4>
+                            <span class="text-xs font-mono text-zinc-500">OCT 2020 — MAR 2022</span>
+                        </div>
+                        <p class="text-xs font-mono text-purple-400 uppercase tracking-wider">MAG (Mines Advisory Group)</p>
+                        <p class="text-sm text-zinc-400 font-light leading-relaxed">
+                            Self-shot, directed, and structured highly delicate human-centric documentaries in volatile field deployments (Iraq, Lebanon), converting high-risk logistics into visual assets that accelerated global advocacy pipelines.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- PREMIUM MINIMAL FOOTER -->
+    <footer class="bg-zinc-950 border-t border-zinc-900 py-16 text-center space-y-6">
+        <p class="text-sm tracking-tight text-zinc-400 max-w-sm mx-auto">
+            Available for premium senior agency bookings, specialized field directing, and long-form treatment consultations.
+        </p>
+        <div class="flex justify-center gap-8 font-mono text-xs uppercase tracking-widest text-zinc-500">
+            <a href="mailto:hettiemaylam@hotmail.co.uk" class="hover:text-cyan-400 transition">Email</a>
+            <a href="tel:+447896568924" class="hover:text-cyan-400 transition">Phone</a>
+        </div>
+        <p class="text-[10px] text-zinc-700 font-mono">© 2026 Hettie Maylam. Verified via historical records from "HettieMaylam_CV_June2026.pdf".</p>
+    </footer>
+
+</body>
+</html>
